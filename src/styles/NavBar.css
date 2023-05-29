@@ -1,0 +1,19 @@
+.NavBar {
+  width: 100%;
+  font-size: calc(10px + 4vmin);
+}
+
+.Headers {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 8%;
+}
+
+.Headers a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
