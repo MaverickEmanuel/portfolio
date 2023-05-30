@@ -15,5 +15,12 @@
   text-decoration: none;
   color: white;
   font-weight: 500;
-  margin: 20px;
+  margin-top: 20px;
+  transition: color 0.1s ease-out;
+}
+
+.Headers a:hover {
+  text-decoration: none;
+  color: #d6d6d6;
+  font-weight: 500;
 }
