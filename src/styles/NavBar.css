@@ -1,14 +1,13 @@
 .NavBar {
   width: 100%;
+  height: 80px;
   font-size: calc(10px + 4vmin);
 }
 
 .Headers {
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   column-gap: 8%;
 }
 
@@ -16,4 +15,5 @@
   text-decoration: none;
   color: white;
   font-weight: 500;
+  margin: 20px;
 }
