@@ -5,9 +5,9 @@ function NavBar() {
     return (
         <div className="NavBar">
             <div className="Headers">
-                <a href="temp">Projects</a>
-                <a href="/">Home</a>
-                <a href="temp">Experience</a>
+                <a href="/projects/">Projects</a>
+                <a href="/portfolio/">Home</a>
+                <a href="/experience/">Experience</a>
             </div>
         </div>
     )
