@@ -1,0 +1,15 @@
+.Experience {
+    height: calc(100vh - 78px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .Experience h1 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 650;
+    margin-top: -10%;
+  }
