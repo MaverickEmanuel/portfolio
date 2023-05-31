@@ -1,15 +1,102 @@
 .Experience {
-    height: calc(100vh - 78px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
+  height: calc(100vh - 78px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: #120845;
+}
 
-  .Experience h1 {
-    text-align: center;
-    font-size: 75px;
-    font-weight: 650;
+.Experience h1 {
+  text-align: center;
+  font-size: 75px;
+  font-weight: 650;
+  margin: 20px;
+}
+
+.Experience h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.Experience p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Education {
+  width: 50%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.University {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.University .Info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.University .Description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.University .Description p {
+    width: 80%;
+    height: 100%;
     margin-top: -10%;
-  }
+    overflow-wrap: normal;
+}
+
+.Queens {
+    width: 50%;
+    height: 100%;
+    margin-top: -10%;
+}
+
+.HighSchool {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.HighSchool .Info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+  
+.HighSchool .Description {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HighSchool .Description p {
+    width: 80%;
+    height: 100%;
+    margin-top: 6px;
+    overflow-wrap: normal;
+}
+
+.ACVI {
+    width: 30%;
+    height: 60%;
+}

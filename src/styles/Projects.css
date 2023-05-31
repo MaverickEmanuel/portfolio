@@ -1,15 +1,17 @@
 .Projects {
-    height: calc(100vh - 78px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
+  height: calc(100vh - 78px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: white;
+}
 
-  .Projects h1 {
-    text-align: center;
-    font-size: 75px;
-    font-weight: 650;
-    margin-top: -10%;
-  }
+.Projects h1 {
+  text-align: center;
+  font-size: 75px;
+  font-weight: 650;
+  margin-bottom: 25px;
+  color: #120845;
+}
