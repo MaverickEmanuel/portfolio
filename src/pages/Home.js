@@ -5,8 +5,8 @@ function Home() {
     return (
         <div className="Home">
             <div className="Intro">
-                <h1>Maverick's Portfolio</h1>
-                <p>Hi, I'm Maverick Emanuel. I'm currently learning Javascript and React to further my understanding of front-end web development.</p>
+                <h1>Hey! I'm Maverick Emanuel.</h1>
+                <p>I'm a 19 year-old computer science student at Queen's University. I'm currently learning Javascript and React to further my understanding of front-end web development.</p>
             </div>
             <div className="Skills">
                 <h1>Skills</h1>
