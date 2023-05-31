@@ -16,11 +16,10 @@
   color: white;
   font-weight: 500;
   margin-top: 20px;
-  transition: color 0.1s ease-out;
+  transition: color 0.2s ease-out, 0.2s;
 }
 
 .Headers a:hover {
-  text-decoration: none;
-  color: #d6d6d6;
-  font-weight: 500;
+  color: #E4E3E3;
+  transform: scale(1.1);
 }

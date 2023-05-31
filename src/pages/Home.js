@@ -13,6 +13,8 @@ function Home() {
                 <div className="Items">
                     <h2>Languages</h2>
                     <p>Python, Java, C, HTML/CSS, Javascript</p>
+                    <h2>Developer Tools</h2>
+                    <p>Git (GitHub), VS Code, Visual Studio, IntelliJ IDEA, Eclipse</p>
                 </div>
             </div>
         </div>
